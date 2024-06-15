@@ -1,0 +1,83 @@
+/* Codsoft internship */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 100px;
+}
+nav h1{
+    float: left;
+    line-height: 100px;
+    font-size: 35px;
+    font-size: inline;
+    color: #eb7620;
+}
+nav ul{
+    float: right;
+    line-height: 7;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    color: #eb7620;
+    transition: .5s ease;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color:#fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color: #a3a3a3;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+.article .btn:hover{
+    background-color: #d73229;
+    transition: .5s ease;
+}
